@@ -426,7 +426,9 @@ public final class Repository {
 
 				let branchName = branch.longName
 				var dirPointer = UnsafeMutablePointer<Int8>(mutating: (branchName as NSString).utf8String)
-				var refs = git_strarray(strings: &dirPointer, count: 1)
+				var refs = withExtendedLifetime(&dirPointer) {
+					git_strarray(strings: $0, count: 1)
+				}
 
 				let result = git_remote_push(pointer, &refs, &opts)
 				guard result == GIT_OK.rawValue else {
