@@ -46,7 +46,10 @@ internal func credentialsCallback(
 	// Find username_from_url
 	let name = username.map(String.init(cString:))
 
-	switch Credentials.fromPointer(payload!) {
+	//Adding this here for a breakpoint
+	let creds = Credentials.fromPointer(payload!)
+
+	switch creds {
 	case .default:
 		result = git_cred_default_new(cred)
 	case .sshAgent:
