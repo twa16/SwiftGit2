@@ -11,6 +11,8 @@
 //! Project version number for SwiftGit2.
 FOUNDATION_EXPORT double SwiftGit2VersionNumber;
 
+#define GIT_DEPRECATE_HARD 1
+
 //! Project version string for SwiftGit2.
 FOUNDATION_EXPORT const unsigned char SwiftGit2VersionString[];
 
