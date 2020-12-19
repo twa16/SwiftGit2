@@ -855,6 +855,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SwiftGit2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"External/libgit2-ios",
 					"External/libssh2-ios/lib",
@@ -884,6 +885,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SwiftGit2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"External/libgit2-ios",
 					"External/libssh2-ios/lib",
