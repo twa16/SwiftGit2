@@ -948,6 +948,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F511A0D75EE00F525B9 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = ssl;
 			};
 			name = Debug;
@@ -956,6 +957,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F511A0D75EE00F525B9 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = ssl;
 			};
 			name = Release;
