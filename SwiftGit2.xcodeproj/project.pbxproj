@@ -931,6 +931,7 @@
 			baseConfigurationReference = BEB31F511A0D75EE00F525B9 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = git2;
 			};
 			name = Debug;
@@ -940,6 +941,7 @@
 			baseConfigurationReference = BEB31F511A0D75EE00F525B9 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = git2;
 			};
 			name = Release;
@@ -966,6 +968,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F511A0D75EE00F525B9 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = ssh2;
 			};
 			name = Debug;
@@ -974,6 +977,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F511A0D75EE00F525B9 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = ssh2;
 			};
 			name = Release;
